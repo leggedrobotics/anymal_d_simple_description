@@ -3,9 +3,14 @@ Panels:
     Help Height: 78
     Name: Displays
     Property Tree Widget:
-      Expanded: ~
-      Splitter Ratio: 0.8294117450714111
-    Tree Height: 407
+      Expanded:
+        - /Global Options1
+        - /TF1
+        - /TF1/Frames1
+        - /boxi1
+        - /anymal_d1
+      Splitter Ratio: 0.881147563457489
+    Tree Height: 1213
   - Class: rviz/Selection
     Name: Selection
   - Class: rviz/Tool Properties
@@ -16,7 +21,11 @@ Panels:
   - Class: rviz/Views
     Expanded:
       - /Current View1
-      - /Current View1/Focal Point1
+      - /top1
+      - /left1
+      - /left1/Focal Point1
+      - /Back1
+      - /front1
     Name: Views
     Splitter Ratio: 0.5
   - Class: rviz/Time
@@ -49,6 +58,639 @@ Visualization Manager:
       Plane Cell Count: 10
       Reference Frame: <Fixed Frame>
       Value: false
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        All Enabled: false
+        LF_FOOT:
+          Value: false
+        LF_HAA_drive:
+          Value: true
+        LF_HFE_drive:
+          Value: true
+        LF_HFE_output:
+          Value: false
+        LF_HIP:
+          Value: false
+        LF_KFE_drive:
+          Value: true
+        LF_SHANK:
+          Value: false
+        LF_THIGH:
+          Value: false
+        LF_hip_fixed:
+          Value: false
+        LF_shank_fixed:
+          Value: false
+        LF_thigh_fixed:
+          Value: false
+        LH_FOOT:
+          Value: false
+        LH_HAA_drive:
+          Value: false
+        LH_HFE_drive:
+          Value: false
+        LH_HFE_output:
+          Value: false
+        LH_HIP:
+          Value: false
+        LH_KFE_drive:
+          Value: false
+        LH_SHANK:
+          Value: false
+        LH_THIGH:
+          Value: false
+        LH_hip_fixed:
+          Value: false
+        LH_shank_fixed:
+          Value: false
+        LH_thigh_fixed:
+          Value: false
+        RF_FOOT:
+          Value: false
+        RF_HAA_drive:
+          Value: false
+        RF_HFE_drive:
+          Value: false
+        RF_HFE_output:
+          Value: false
+        RF_HIP:
+          Value: false
+        RF_KFE_drive:
+          Value: false
+        RF_SHANK:
+          Value: false
+        RF_THIGH:
+          Value: false
+        RF_hip_fixed:
+          Value: false
+        RF_shank_fixed:
+          Value: false
+        RF_thigh_fixed:
+          Value: false
+        RH_FOOT:
+          Value: false
+        RH_HAA_drive:
+          Value: false
+        RH_HFE_drive:
+          Value: false
+        RH_HFE_output:
+          Value: false
+        RH_HIP:
+          Value: false
+        RH_KFE_drive:
+          Value: false
+        RH_SHANK:
+          Value: false
+        RH_THIGH:
+          Value: false
+        RH_hip_fixed:
+          Value: false
+        RH_shank_fixed:
+          Value: false
+        RH_thigh_fixed:
+          Value: false
+        adis16475_imu:
+          Value: true
+        alphasense_base:
+          Value: true
+        alphasense_front_center:
+          Value: true
+        alphasense_front_left:
+          Value: true
+        alphasense_front_right:
+          Value: true
+        alphasense_left:
+          Value: true
+        alphasense_right:
+          Value: true
+        ap20_imu:
+          Value: true
+        base:
+          Value: true
+        base_inertia:
+          Value: false
+        battery:
+          Value: false
+        body_top:
+          Value: false
+        bottom_shell:
+          Value: false
+        box_base:
+          Value: true
+        box_base_model:
+          Value: false
+        cam1_sensor_frame:
+          Value: true
+        cam2_sensor_frame:
+          Value: true
+        cam3_sensor_frame:
+          Value: true
+        cam4_sensor_frame:
+          Value: true
+        cam5_sensor_frame:
+          Value: true
+        cpt7_antenna_back:
+          Value: true
+        cpt7_antenna_back_model:
+          Value: false
+        cpt7_antenna_front:
+          Value: true
+        cpt7_imu:
+          Value: true
+        depth_camera_front_lower_camera:
+          Value: false
+        depth_camera_front_lower_camera_parent:
+          Value: false
+        depth_camera_front_lower_depth_frame:
+          Value: false
+        depth_camera_front_lower_depth_optical_frame:
+          Value: true
+        depth_camera_front_upper_camera:
+          Value: false
+        depth_camera_front_upper_camera_parent:
+          Value: false
+        depth_camera_front_upper_depth_frame:
+          Value: false
+        depth_camera_front_upper_depth_optical_frame:
+          Value: true
+        depth_camera_left_camera:
+          Value: false
+        depth_camera_left_camera_parent:
+          Value: false
+        depth_camera_left_depth_frame:
+          Value: false
+        depth_camera_left_depth_optical_frame:
+          Value: true
+        depth_camera_rear_lower_camera:
+          Value: false
+        depth_camera_rear_lower_camera_parent:
+          Value: false
+        depth_camera_rear_lower_depth_frame:
+          Value: false
+        depth_camera_rear_lower_depth_optical_frame:
+          Value: true
+        depth_camera_rear_upper_camera:
+          Value: false
+        depth_camera_rear_upper_camera_parent:
+          Value: false
+        depth_camera_rear_upper_depth_frame:
+          Value: false
+        depth_camera_rear_upper_depth_optical_frame:
+          Value: true
+        depth_camera_right_camera:
+          Value: false
+        depth_camera_right_camera_parent:
+          Value: false
+        depth_camera_right_depth_frame:
+          Value: false
+        depth_camera_right_depth_optical_frame:
+          Value: false
+        docking_socket:
+          Value: false
+        face_front:
+          Value: false
+        face_rear:
+          Value: false
+        face_shell_front:
+          Value: false
+        face_shell_rear:
+          Value: false
+        hbc_receiver:
+          Value: false
+        hdr_base:
+          Value: false
+        hdr_front:
+          Value: true
+        hdr_left:
+          Value: true
+        hdr_right:
+          Value: true
+        hesai_lidar:
+          Value: true
+        hesai_model:
+          Value: false
+        imu_link:
+          Value: true
+        imu_sensor_frame:
+          Value: false
+        lidar:
+          Value: true
+        lidar_parent:
+          Value: false
+        livox_imu:
+          Value: true
+        livox_lidar:
+          Value: true
+        livox_model:
+          Value: false
+        prism:
+          Value: true
+        prism_model:
+          Value: false
+        spider:
+          Value: false
+        stim320_imu:
+          Value: false
+        top_shell:
+          Value: false
+        wide_angle_camera_front_camera:
+          Value: false
+        wide_angle_camera_front_camera_parent:
+          Value: false
+        wide_angle_camera_rear_camera:
+          Value: false
+        wide_angle_camera_rear_camera_parent:
+          Value: false
+        zed2i_base_link:
+          Value: false
+        zed2i_camera_center:
+          Value: false
+        zed2i_imu_link:
+          Value: true
+        zed2i_left_camera_frame:
+          Value: false
+        zed2i_left_camera_optical_frame:
+          Value: true
+        zed2i_right_camera_frame:
+          Value: false
+        zed2i_right_camera_optical_frame:
+          Value: true
+        zed_base_link:
+          Value: true
+      Marker Alpha: 1
+      Marker Scale: 0.3499999940395355
+      Name: TF
+      Show Arrows: false
+      Show Axes: true
+      Show Names: false
+      Tree:
+        base:
+          LF_HAA_drive:
+            LF_HIP:
+              LF_hip_fixed:
+                LF_HFE_output:
+                  LF_THIGH:
+                    LF_HFE_drive:
+                      LF_thigh_fixed:
+                        LF_KFE_drive:
+                          LF_SHANK:
+                            LF_shank_fixed:
+                              LF_FOOT:
+                                {}
+          LH_HAA_drive:
+            LH_HIP:
+              LH_hip_fixed:
+                LH_HFE_output:
+                  LH_THIGH:
+                    LH_HFE_drive:
+                      LH_thigh_fixed:
+                        LH_KFE_drive:
+                          LH_SHANK:
+                            LH_shank_fixed:
+                              LH_FOOT:
+                                {}
+          RF_HAA_drive:
+            RF_HIP:
+              RF_hip_fixed:
+                RF_HFE_output:
+                  RF_THIGH:
+                    RF_HFE_drive:
+                      RF_thigh_fixed:
+                        RF_KFE_drive:
+                          RF_SHANK:
+                            RF_shank_fixed:
+                              RF_FOOT:
+                                {}
+          RH_HAA_drive:
+            RH_HIP:
+              RH_hip_fixed:
+                RH_HFE_output:
+                  RH_THIGH:
+                    RH_HFE_drive:
+                      RH_thigh_fixed:
+                        RH_KFE_drive:
+                          RH_SHANK:
+                            RH_shank_fixed:
+                              RH_FOOT:
+                                {}
+          base_inertia:
+            {}
+          battery:
+            {}
+          body_top:
+            {}
+          bottom_shell:
+            {}
+          box_base:
+            adis16475_imu:
+              {}
+            alphasense_base:
+              cam1_sensor_frame:
+                alphasense_front_center:
+                  {}
+              cam2_sensor_frame:
+                alphasense_front_right:
+                  {}
+              cam3_sensor_frame:
+                alphasense_front_left:
+                  {}
+              cam4_sensor_frame:
+                alphasense_left:
+                  {}
+              cam5_sensor_frame:
+                alphasense_right:
+                  {}
+            ap20_imu:
+              {}
+            box_base_model:
+              {}
+            cpt7_imu:
+              cpt7_antenna_back:
+                {}
+              cpt7_antenna_front:
+                {}
+            hdr_base:
+              hdr_front:
+                {}
+              hdr_left:
+                {}
+              hdr_right:
+                {}
+            hesai_lidar:
+              hesai_model:
+                {}
+            imu_sensor_frame:
+              {}
+            livox_lidar:
+              livox_imu:
+                {}
+              livox_model:
+                {}
+            prism:
+              {}
+            prism_model:
+              {}
+            spider:
+              {}
+            stim320_imu:
+              {}
+            zed_base_link:
+              zed2i_base_link:
+                zed2i_camera_center:
+                  zed2i_left_camera_frame:
+                    zed2i_imu_link:
+                      {}
+                    zed2i_left_camera_optical_frame:
+                      zed2i_right_camera_optical_frame:
+                        zed2i_right_camera_frame:
+                          {}
+          cpt7_antenna_back_model:
+            {}
+          depth_camera_left_camera:
+            depth_camera_left_camera_parent:
+              depth_camera_left_depth_frame:
+                depth_camera_left_depth_optical_frame:
+                  {}
+          depth_camera_right_camera:
+            depth_camera_right_camera_parent:
+              depth_camera_right_depth_frame:
+                depth_camera_right_depth_optical_frame:
+                  {}
+          docking_socket:
+            {}
+          face_front:
+            depth_camera_front_lower_camera:
+              depth_camera_front_lower_camera_parent:
+                depth_camera_front_lower_depth_frame:
+                  depth_camera_front_lower_depth_optical_frame:
+                    {}
+            depth_camera_front_upper_camera:
+              depth_camera_front_upper_camera_parent:
+                depth_camera_front_upper_depth_frame:
+                  depth_camera_front_upper_depth_optical_frame:
+                    {}
+            face_shell_front:
+              {}
+            wide_angle_camera_front_camera:
+              wide_angle_camera_front_camera_parent:
+                {}
+          face_rear:
+            depth_camera_rear_lower_camera:
+              depth_camera_rear_lower_camera_parent:
+                depth_camera_rear_lower_depth_frame:
+                  depth_camera_rear_lower_depth_optical_frame:
+                    {}
+            depth_camera_rear_upper_camera:
+              depth_camera_rear_upper_camera_parent:
+                depth_camera_rear_upper_depth_frame:
+                  depth_camera_rear_upper_depth_optical_frame:
+                    {}
+            face_shell_rear:
+              {}
+            wide_angle_camera_rear_camera:
+              wide_angle_camera_rear_camera_parent:
+                {}
+          hbc_receiver:
+            {}
+          imu_link:
+            {}
+          lidar_parent:
+            lidar:
+              {}
+          top_shell:
+            {}
+      Update Interval: 0
+      Value: true
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        adis16475_imu:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        alphasense_base:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        alphasense_front_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        alphasense_front_left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        alphasense_front_right:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        alphasense_left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        alphasense_right:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        ap20_imu:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        base:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        box_base:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        box_base_model:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cam1_sensor_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        cam2_sensor_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        cam3_sensor_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        cam4_sensor_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        cam5_sensor_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        cpt7_antenna_back:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        cpt7_antenna_back_model:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cpt7_antenna_front:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        cpt7_imu:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hdr_base:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hdr_front:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hdr_left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hdr_right:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hesai_lidar:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hesai_model:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        imu_sensor_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        livox_imu:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        livox_lidar:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        livox_model:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        prism:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        prism_model:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        spider:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        stim320_imu:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        zed2i_base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        zed2i_camera_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        zed2i_imu_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        zed2i_left_camera_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        zed2i_left_camera_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        zed2i_right_camera_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        zed2i_right_camera_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        zed_base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+      Name: boxi
+      Robot Description: boxi_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
     - Alpha: 1
       Class: rviz/RobotModel
       Collision Enabled: false
@@ -63,21 +705,25 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        LF_HAA:
+        LF_HAA_drive:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        LF_HFE:
+        LF_HFE_drive:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
+        LF_HFE_output:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         LF_HIP:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        LF_KFE:
+        LF_KFE_drive:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -110,21 +756,25 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        LH_HAA:
+        LH_HAA_drive:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        LH_HFE:
+        LH_HFE_drive:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
+        LH_HFE_output:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         LH_HIP:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        LH_KFE:
+        LH_KFE_drive:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -158,21 +808,25 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        RF_HAA:
+        RF_HAA_drive:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        RF_HFE:
+        RF_HFE_drive:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
+        RF_HFE_output:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         RF_HIP:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        RF_KFE:
+        RF_KFE_drive:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -205,21 +859,25 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        RH_HAA:
+        RH_HAA_drive:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        RH_HFE:
+        RH_HFE_drive:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
+        RH_HFE_output:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         RH_HIP:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        RH_KFE:
+        RH_KFE_drive:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -261,29 +919,44 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        body_top:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         bottom_shell:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        depth_camera_front_camera:
+        depth_camera_front_lower_camera:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
-        depth_camera_front_camera_parent:
+        depth_camera_front_lower_camera_parent:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        depth_camera_front_color_frame:
+        depth_camera_front_lower_depth_frame:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        depth_camera_front_color_optical_frame:
+        depth_camera_front_lower_depth_optical_frame:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        depth_camera_front_depth_optical_frame:
+        depth_camera_front_upper_camera:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        depth_camera_front_upper_camera_parent:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        depth_camera_front_upper_depth_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        depth_camera_front_upper_depth_optical_frame:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -291,16 +964,11 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
         depth_camera_left_camera_parent:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        depth_camera_left_color_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        depth_camera_left_color_optical_frame:
+        depth_camera_left_depth_frame:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -308,24 +976,35 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        depth_camera_rear_camera:
+        depth_camera_rear_lower_camera:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
-        depth_camera_rear_camera_parent:
+        depth_camera_rear_lower_camera_parent:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        depth_camera_rear_color_frame:
+        depth_camera_rear_lower_depth_frame:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        depth_camera_rear_color_optical_frame:
+        depth_camera_rear_lower_depth_optical_frame:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        depth_camera_rear_depth_optical_frame:
+        depth_camera_rear_upper_camera:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        depth_camera_rear_upper_camera_parent:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        depth_camera_rear_upper_depth_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        depth_camera_rear_upper_depth_optical_frame:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -333,16 +1012,11 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
         depth_camera_right_camera_parent:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        depth_camera_right_color_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        depth_camera_right_color_optical_frame:
+        depth_camera_right_depth_frame:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -350,50 +1024,46 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        docking_hatch_cover:
+        docking_socket:
           Alpha: 1
           Show Axes: false
           Show Trail: false
+          Value: true
         face_front:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
         face_rear:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
-        handle:
+        face_shell_front:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        hatch:
+        face_shell_rear:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
+        hbc_receiver:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         imu_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
         lidar:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        lidar_cage:
+        lidar_parent:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
-        remote:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         top_shell:
           Alpha: 1
           Show Axes: false
@@ -403,7 +1073,6 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
         wide_angle_camera_front_camera_parent:
           Alpha: 1
           Show Axes: false
@@ -412,288 +1081,16 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
         wide_angle_camera_rear_camera_parent:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-      Name: RobotModel
+      Name: anymal_d
       Robot Description: anymal_description
       TF Prefix: ""
       Update Interval: 0
       Value: true
       Visual Enabled: true
-    - Class: rviz/TF
-      Enabled: true
-      Frame Timeout: 15
-      Frames:
-        All Enabled: true
-        LF_FOOT:
-          Value: true
-        LF_HAA:
-          Value: true
-        LF_HFE:
-          Value: true
-        LF_HIP:
-          Value: true
-        LF_KFE:
-          Value: true
-        LF_SHANK:
-          Value: true
-        LF_THIGH:
-          Value: true
-        LF_hip_fixed:
-          Value: true
-        LF_shank_fixed:
-          Value: true
-        LF_thigh_fixed:
-          Value: true
-        LH_FOOT:
-          Value: true
-        LH_HAA:
-          Value: true
-        LH_HFE:
-          Value: true
-        LH_HIP:
-          Value: true
-        LH_KFE:
-          Value: true
-        LH_SHANK:
-          Value: true
-        LH_THIGH:
-          Value: true
-        LH_hip_fixed:
-          Value: true
-        LH_shank_fixed:
-          Value: true
-        LH_thigh_fixed:
-          Value: true
-        RF_FOOT:
-          Value: true
-        RF_HAA:
-          Value: true
-        RF_HFE:
-          Value: true
-        RF_HIP:
-          Value: true
-        RF_KFE:
-          Value: true
-        RF_SHANK:
-          Value: true
-        RF_THIGH:
-          Value: true
-        RF_hip_fixed:
-          Value: true
-        RF_shank_fixed:
-          Value: true
-        RF_thigh_fixed:
-          Value: true
-        RH_FOOT:
-          Value: true
-        RH_HAA:
-          Value: true
-        RH_HFE:
-          Value: true
-        RH_HIP:
-          Value: true
-        RH_KFE:
-          Value: true
-        RH_SHANK:
-          Value: true
-        RH_THIGH:
-          Value: true
-        RH_hip_fixed:
-          Value: true
-        RH_shank_fixed:
-          Value: true
-        RH_thigh_fixed:
-          Value: true
-        base:
-          Value: true
-        base_inertia:
-          Value: true
-        battery:
-          Value: true
-        bottom_shell:
-          Value: true
-        depth_camera_front_camera:
-          Value: true
-        depth_camera_front_camera_parent:
-          Value: true
-        depth_camera_front_color_frame:
-          Value: true
-        depth_camera_front_color_optical_frame:
-          Value: true
-        depth_camera_front_depth_optical_frame:
-          Value: true
-        depth_camera_left_camera:
-          Value: true
-        depth_camera_left_camera_parent:
-          Value: true
-        depth_camera_left_color_frame:
-          Value: true
-        depth_camera_left_color_optical_frame:
-          Value: true
-        depth_camera_left_depth_optical_frame:
-          Value: true
-        depth_camera_rear_camera:
-          Value: true
-        depth_camera_rear_camera_parent:
-          Value: true
-        depth_camera_rear_color_frame:
-          Value: true
-        depth_camera_rear_color_optical_frame:
-          Value: true
-        depth_camera_rear_depth_optical_frame:
-          Value: true
-        depth_camera_right_camera:
-          Value: true
-        depth_camera_right_camera_parent:
-          Value: true
-        depth_camera_right_color_frame:
-          Value: true
-        depth_camera_right_color_optical_frame:
-          Value: true
-        depth_camera_right_depth_optical_frame:
-          Value: true
-        docking_hatch_cover:
-          Value: true
-        face_front:
-          Value: true
-        face_rear:
-          Value: true
-        handle:
-          Value: true
-        hatch:
-          Value: true
-        imu_link:
-          Value: true
-        lidar:
-          Value: true
-        lidar_cage:
-          Value: true
-        remote:
-          Value: true
-        top_shell:
-          Value: true
-        wide_angle_camera_front_camera:
-          Value: true
-        wide_angle_camera_front_camera_parent:
-          Value: true
-        wide_angle_camera_rear_camera:
-          Value: true
-        wide_angle_camera_rear_camera_parent:
-          Value: true
-      Marker Scale: 0.5
-      Name: TF
-      Show Arrows: true
-      Show Axes: true
-      Show Names: false
-      Tree:
-        base:
-          LF_HAA:
-            LF_HIP:
-              LF_hip_fixed:
-                LF_HFE:
-                  LF_THIGH:
-                    LF_thigh_fixed:
-                      LF_KFE:
-                        LF_SHANK:
-                          LF_shank_fixed:
-                            LF_FOOT:
-                              {}
-          LH_HAA:
-            LH_HIP:
-              LH_hip_fixed:
-                LH_HFE:
-                  LH_THIGH:
-                    LH_thigh_fixed:
-                      LH_KFE:
-                        LH_SHANK:
-                          LH_shank_fixed:
-                            LH_FOOT:
-                              {}
-          RF_HAA:
-            RF_HIP:
-              RF_hip_fixed:
-                RF_HFE:
-                  RF_THIGH:
-                    RF_thigh_fixed:
-                      RF_KFE:
-                        RF_SHANK:
-                          RF_shank_fixed:
-                            RF_FOOT:
-                              {}
-          RH_HAA:
-            RH_HIP:
-              RH_hip_fixed:
-                RH_HFE:
-                  RH_THIGH:
-                    RH_thigh_fixed:
-                      RH_KFE:
-                        RH_SHANK:
-                          RH_shank_fixed:
-                            RH_FOOT:
-                              {}
-          base_inertia:
-            {}
-          battery:
-            {}
-          bottom_shell:
-            {}
-          depth_camera_left_camera:
-            depth_camera_left_camera_parent:
-              depth_camera_left_color_frame:
-                depth_camera_left_color_optical_frame:
-                  {}
-              depth_camera_left_depth_optical_frame:
-                {}
-          depth_camera_right_camera:
-            depth_camera_right_camera_parent:
-              depth_camera_right_color_frame:
-                depth_camera_right_color_optical_frame:
-                  {}
-              depth_camera_right_depth_optical_frame:
-                {}
-          docking_hatch_cover:
-            {}
-          face_front:
-            depth_camera_front_camera:
-              depth_camera_front_camera_parent:
-                depth_camera_front_color_frame:
-                  depth_camera_front_color_optical_frame:
-                    {}
-                depth_camera_front_depth_optical_frame:
-                  {}
-            wide_angle_camera_front_camera:
-              wide_angle_camera_front_camera_parent:
-                {}
-          face_rear:
-            depth_camera_rear_camera:
-              depth_camera_rear_camera_parent:
-                depth_camera_rear_color_frame:
-                  depth_camera_rear_color_optical_frame:
-                    {}
-                depth_camera_rear_depth_optical_frame:
-                  {}
-            wide_angle_camera_rear_camera:
-              wide_angle_camera_rear_camera_parent:
-                {}
-          handle:
-            {}
-          hatch:
-            {}
-          imu_link:
-            {}
-          lidar_cage:
-            lidar:
-              {}
-          remote:
-            {}
-          top_shell:
-            {}
-      Update Interval: 0
-      Value: true
   Enabled: true
   Global Options:
     Background Color: 255; 255; 255
@@ -715,33 +1112,193 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 2
+      Distance: 1.459243655204773
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
+      Field of View: 0.7853981852531433
       Focal Point:
-        X: 0
-        Y: 0
-        Z: 0
-      Focal Shape Fixed Size: true
+        X: 0.135604590177536
+        Y: 0.1487828493118286
+        Z: -0.21648457646369934
+      Focal Shape Fixed Size: false
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0
-      Target Frame: <Fixed Frame>
-      Value: Orbit (rviz)
-      Yaw: 0.707099974155426
-    Saved: ~
+      Pitch: 0.3747979402542114
+      Target Frame: box_base
+      Yaw: 5.343559741973877
+    Saved:
+      - Class: rviz/Orbit
+        Distance: 1.4329628944396973
+        Enable Stereo Rendering:
+          Stereo Eye Separation: 0.05999999865889549
+          Stereo Focal Distance: 1
+          Swap Stereo Eyes: false
+          Value: false
+        Field of View: 0.7853981852531433
+        Focal Point:
+          X: 0.0001314851688221097
+          Y: 0.03307045251131058
+          Z: 4.278024334780639e-07
+        Focal Shape Fixed Size: false
+        Focal Shape Size: 0.05000000074505806
+        Invert Z Axis: false
+        Name: top
+        Near Clip Distance: 0.009999999776482582
+        Pitch: 1.5697963237762451
+        Target Frame: box_base
+        Yaw: 3.145399570465088
+      - Class: rviz/Orbit
+        Distance: 1.8622599840164185
+        Enable Stereo Rendering:
+          Stereo Eye Separation: 0.05999999865889549
+          Stereo Focal Distance: 1
+          Swap Stereo Eyes: false
+          Value: false
+        Field of View: 0.7853981852531433
+        Focal Point:
+          X: -0.06228100135922432
+          Y: 0.04766299948096275
+          Z: -0.34352999925613403
+        Focal Shape Fixed Size: false
+        Focal Shape Size: 0.05000000074505806
+        Invert Z Axis: false
+        Name: left
+        Near Clip Distance: 0.009999999776482582
+        Pitch: 0.18999993801116943
+        Target Frame: box_base
+        Yaw: 1.565000057220459
+      - Class: rviz/Orbit
+        Distance: 1.8622599840164185
+        Enable Stereo Rendering:
+          Stereo Eye Separation: 0.05999999865889549
+          Stereo Focal Distance: 1
+          Swap Stereo Eyes: false
+          Value: false
+        Field of View: 0.785398006439209
+        Focal Point:
+          X: -0.06228100135922432
+          Y: 0.04766299948096275
+          Z: -0.34352999925613403
+        Focal Shape Fixed Size: false
+        Focal Shape Size: 0.05000000074505806
+        Invert Z Axis: false
+        Name: right
+        Near Clip Distance: 0.009999999776482582
+        Pitch: 0.1899999976158142
+        Target Frame: box_base
+        Yaw: -1.565000057220459
+      - Class: rviz/Orbit
+        Distance: 2.0556933879852295
+        Enable Stereo Rendering:
+          Stereo Eye Separation: 0.05999999865889549
+          Stereo Focal Distance: 1
+          Swap Stereo Eyes: false
+          Value: false
+        Field of View: 0.7853981852531433
+        Focal Point:
+          X: -0.06111573055386543
+          Y: 0.024654999375343323
+          Z: -0.3261817991733551
+        Focal Shape Fixed Size: false
+        Focal Shape Size: 0.05000000074505806
+        Invert Z Axis: false
+        Name: Back
+        Near Clip Distance: 0.009999999776482582
+        Pitch: 0.11500000953674316
+        Target Frame: box_base
+        Yaw: 3.140000104904175
+      - Class: rviz/Orbit
+        Distance: 2.0556933879852295
+        Enable Stereo Rendering:
+          Stereo Eye Separation: 0.05999999865889549
+          Stereo Focal Distance: 1
+          Swap Stereo Eyes: false
+          Value: false
+        Field of View: 0.7853981852531433
+        Focal Point:
+          X: -0.06185895949602127
+          Y: -0.023190047591924667
+          Z: -0.3437789976596832
+        Focal Shape Fixed Size: false
+        Focal Shape Size: 0.05000000074505806
+        Invert Z Axis: false
+        Name: front
+        Near Clip Distance: 0.009999999776482582
+        Pitch: 0.12999998033046722
+        Target Frame: box_base
+        Yaw: 0.025001160800457
+      - Class: rviz/Orbit
+        Distance: 1.6582313776016235
+        Enable Stereo Rendering:
+          Stereo Eye Separation: 0.05999999865889549
+          Stereo Focal Distance: 1
+          Swap Stereo Eyes: false
+          Value: false
+        Field of View: 0.7853981852531433
+        Focal Point:
+          X: 0.135604590177536
+          Y: 0.1487828493118286
+          Z: -0.21648457646369934
+        Focal Shape Fixed Size: false
+        Focal Shape Size: 0.05000000074505806
+        Invert Z Axis: false
+        Name: Cut
+        Near Clip Distance: 0.009999999776482582
+        Pitch: 0.19479809701442719
+        Target Frame: box_base
+        Yaw: 5.303558826446533
+      - Class: rviz/Orbit
+        Distance: 1.897284984588623
+        Enable Stereo Rendering:
+          Stereo Eye Separation: 0.05999999865889549
+          Stereo Focal Distance: 1
+          Swap Stereo Eyes: false
+          Value: false
+        Field of View: 0.7853981852531433
+        Focal Point:
+          X: 0.0017777008470147848
+          Y: 0.08264944702386856
+          Z: -0.41106489300727844
+        Focal Shape Fixed Size: false
+        Focal Shape Size: 0.05000000074505806
+        Invert Z Axis: false
+        Name: iso
+        Near Clip Distance: 0.009999999776482582
+        Pitch: 0.3099999725818634
+        Target Frame: box_base
+        Yaw: 5.513187885284424
+      - Class: rviz/Orbit
+        Distance: 1.459243655204773
+        Enable Stereo Rendering:
+          Stereo Eye Separation: 0.05999999865889549
+          Stereo Focal Distance: 1
+          Swap Stereo Eyes: false
+          Value: false
+        Field of View: 0.7853981852531433
+        Focal Point:
+          X: 0.135604590177536
+          Y: 0.1487828493118286
+          Z: -0.21648457646369934
+        Focal Shape Fixed Size: false
+        Focal Shape Size: 0.05000000074505806
+        Invert Z Axis: false
+        Name: cut2
+        Near Clip Distance: 0.009999999776482582
+        Pitch: 0.3747979402542114
+        Target Frame: box_base
+        Yaw: 5.343559741973877
 Window Geometry:
   Displays:
     collapsed: false
-  Height: 786
+  Height: 1403
   Hide Left Dock: false
   Hide Right Dock: false
-  QMainWindow State: 000000ff00000000fd00000004000000000000015600000222fc0200000008fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed0000033e00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000001600000222000000c900fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261000000010000010f00000222fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073000000001600000222000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e100000197000000030000055f0000003efc0100000002fb0000000800540069006d006500000000000000055f000002eb00fffffffb0000000800540069006d006501000000000000045000000000000000000000024a0000022200000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730000000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000400000000000001a300000548fc0200000008fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed0000033e00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000001600000548000000c900fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261000000010000017500000548fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073010000001600000548000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e100000197000000030000055f0000003efc0100000002fb0000000800540069006d006500000000000000055f000004f300fffffffb0000000800540069006d00650100000000000004500000000000000000000006dc0000054800000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730000000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Time:
@@ -750,6 +1307,6 @@ Window Geometry:
     collapsed: false
   Views:
     collapsed: false
-  Width: 1024
-  X: 0
+  Width: 2560
+  X: 2560
   Y: 0
