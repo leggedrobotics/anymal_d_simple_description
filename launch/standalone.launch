@@ -32,7 +32,7 @@
   </node>
 
   <!-- RViz -->
-  <node name="rviz" pkg="rviz" type="rviz"
+  <node name="rviz_anymal_d_standalone" pkg="rviz" type="rviz"
         args="-d $(find anymal_d_simple_description)/config/rviz/standalone.rviz"
         output="screen"/>
 

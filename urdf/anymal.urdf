@@ -419,13 +419,13 @@
     <origin rpy="0 0 1.5707963267948966" xyz="-0.310 0.0 0.1585"/>
   </joint>
       This accounts for the fact that the Lidar driver rotates the measurements 90 degrees in yaw -->
-  <joint name="lidar_parent_to_lidar" type="fixed">
+  <joint name="lidar_parent_to_velodyne_lidar" type="fixed">
     <parent link="lidar_parent"/>
-    <child link="lidar"/>
+    <child link="velodyne_lidar"/>
     <origin rpy="0 0 1.5707963267948966" xyz="0 0 0"/>
   </joint>
   <link name="lidar_parent"/>
-  <link name="lidar">
+  <link name="velodyne_lidar">
     <visual>
       <origin xyz="0 0 0"/>
       <geometry>
