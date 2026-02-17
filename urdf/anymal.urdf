@@ -42,6 +42,12 @@
       </geometry>
     </collision>
   </link>
+  <joint name="base_to_ptsd_link" type="fixed">
+    <parent link="base"/>
+    <child link="ptsd_link"/>
+    <origin rpy="0 0 0" xyz="0.1825 0 0.125"/>
+  </joint>
+  <link name="ptsd_link"/>
   <joint name="base_to_base_inertia" type="fixed">
     <parent link="base"/>
     <child link="base_inertia"/>
