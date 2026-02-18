@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<package format="2">
+<package format="3">
 
   <name>anymal_d_simple_description</name>
   <version>1.0.9</version>
@@ -22,5 +22,9 @@
   <exec_depend>launch_ros</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
 
 </package>
