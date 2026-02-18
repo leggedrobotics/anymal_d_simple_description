@@ -12,9 +12,11 @@ def generate_launch_description():
     pkg_share = get_package_share_directory("anymal_d_simple_description")
     default_urdf_path = os.path.join(pkg_share, "urdf", "anymal.urdf")
 
-    description_file = LaunchConfiguration("description_file", default=default_urdf_path)
-    joint_states_topic = LaunchConfiguration("joint_states_topic", default="/joint_states")
-    launch_rviz = LaunchConfiguration("launch_rviz", default="false")
+    description_file = LaunchConfiguration("description_file")
+    joint_states_topic = LaunchConfiguration("joint_states_topic")
+    robot_description_topic = LaunchConfiguration("robot_description_topic")
+    launch_rviz = LaunchConfiguration("launch_rviz")
+    launch_joint_state_publisher_gui = LaunchConfiguration("launch_joint_state_publisher_gui")
 
     robot_description = Command(["cat ", description_file])
 
@@ -27,8 +29,18 @@ def generate_launch_description():
             ),
             DeclareLaunchArgument(
                 "joint_states_topic",
-                default_value="/joint_states",
+                default_value="/joint_states_anymal_d",
                 description="Joint state topic name",
+            ),
+            DeclareLaunchArgument(
+                "robot_description_topic",
+                default_value="/robot_description_anymal_d",
+                description="Robot description topic name",
+            ),
+            DeclareLaunchArgument(
+                "launch_joint_state_publisher_gui",
+                default_value="false",
+                description="Whether to launch joint_state_publisher_gui",
             ),
             DeclareLaunchArgument(
                 "launch_rviz",
@@ -41,7 +53,11 @@ def generate_launch_description():
                 name="joint_state_publisher",
                 output="screen",
                 parameters=[{"robot_description": robot_description, "rate": 100}],
-                remappings=[("joint_states", joint_states_topic)],
+                remappings=[
+                    ("joint_states", joint_states_topic),
+                    ("robot_description", robot_description_topic),
+                ],
+                condition=IfCondition(launch_joint_state_publisher_gui),
             ),
             Node(
                 package="robot_state_publisher",
@@ -53,7 +69,10 @@ def generate_launch_description():
                     {"publish_frequency": 100.0},
                     {"use_tf_static": True},
                 ],
-                remappings=[("joint_states", joint_states_topic)],
+                remappings=[
+                    ("joint_states", joint_states_topic),
+                    ("robot_description", robot_description_topic),
+                ],
             ),
             Node(
                 package="rviz2",
